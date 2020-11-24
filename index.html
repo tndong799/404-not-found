@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Devchallenges</title>
+
+    <style>
+      *{
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: 'Space Mono', monospace;
+      }
+      .container{
+        max-width: 1440px;
+        height: 1080px;
+      }
+      .header{
+        padding: 40px 0 0 77px;
+      }
+      .header__text{
+        font-family: "Inconsolata", monospace;
+        font-weight: 700;
+        font-size: 25px;
+        text-transform: uppercase;
+        line-height: 26px;
+      }
+      .main{
+        display: flex;
+        padding-left: 77px;
+        margin-top: 200px;
+      }
+      .main-left{
+        width: 540px;
+      }
+      .main-left__img{
+        width: 100%
+      }
+      .main-right{
+        width: 590px;
+      }
+      .main-right__title{
+        font-weight: 700;
+        font-size: 64px;
+      }
+      .main-right__text{
+        margin-top: 36px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 35px;
+      }
+      .main-right__btn{
+        margin-top: 64px;
+        padding: 24px 43px;
+        background-color: #333;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 700;
+      }
+      .footer{
+        text-align: center;
+        margin-top: 290px;
+      }
+      .footer p{
+        font-size: 14px;
+      }
+      @media (max-width: 760px) {
+        .header{
+          padding: 20px 0 0 24px;
+        }
+        .main{
+          flex-direction: column;
+          padding-left: 24px;
+          margin-top: 64px;
+        }
+        .main-left{
+          width: 100%;
+        }
+        .main-left__img{
+          width: 100%;
+        }
+        .main-right{
+          width: 100%;
+        }
+        .main-right__title{
+          font-size: 48px;
+        }
+        .main-right__text{
+          font-size: 18px;
+
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h3 class="header__text">404 not found</h3>
+      </div>
+
+      <div class="main">
+        <div class="main-left">
+          <img src="./Scarecrow.png" alt="" class="main-left__img">
+        </div>
+        <div class="main-right">
+          <h2 class="main-right__title">
+            I have bad news for you
+          </h2>
+          <p class="main-right__text">
+            The page you are looking <br>for might be removed or is <br>temporarily unavailable
+          </p>
+          <button class="main-right__btn">back to home</button>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p>TranNgocDong @ DevChallenges.io</p>
+      </div>
+    </div>
+  </body>
+</html>
